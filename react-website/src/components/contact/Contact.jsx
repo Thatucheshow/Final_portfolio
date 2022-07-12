@@ -1,8 +1,20 @@
 import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_2pvsvdo', 'template_1bnbs8s', form.current, 'aw7vtM4PNBv7Pv_91')
+
+    e.target.reset()
+  }
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -14,11 +26,11 @@ const contact = () => {
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>robinsonokeke60@gmail.com</h5>
-            <a href="mailto:robinsonokeke60@gmail.com">Send a message</a>
+            <a href="mailto:robinsonokeke60@gmail.com" target='_blank'>Send a message</a>
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name="message" rows="7" placeholder='Your Message...' required></textarea>
@@ -30,4 +42,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

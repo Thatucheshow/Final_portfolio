@@ -20,6 +20,11 @@
     transition: var(--transition);
 }
 
+.contact__option h5 {
+    font-size: 1rem;
+    overflow: scroll;
+}
+
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
