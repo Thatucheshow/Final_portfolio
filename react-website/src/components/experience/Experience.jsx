@@ -12,24 +12,26 @@ const experience = () => {
             <h3>Frontend Development</h3>
             <div className='experience__content'>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
+                <AiFillCheckCircle className='experience__details-icon' />
+                <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <AiFillCheckCircle className='experience__details-icon' />
+                <div><h4>CSS</h4>
+                <small className='text-light'>Experienced</small></div>
               </article>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>javaScript</h4>
-                <small className='text-light'>Intermediate</small>
+                <AiFillCheckCircle className='experience__details-icon'/>
+                <div><h4>javaScript</h4>
+                <small className='text-light'>Intermediate</small></div>
               </article>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>React</h4>
-                <small className='text-light'>Intermediate</small>
+                <AiFillCheckCircle className='experience__details-icon'/>
+                <div><h4>React</h4>
+                <small className='text-light'>Intermediate</small></div>
               </article>
             </div>
         </div>
@@ -38,24 +40,24 @@ const experience = () => {
             <h3>Backend Development</h3>
             <div className='experience__content'>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                <AiFillCheckCircle className='experience__details-icon'/>
+                <div><h4>Node JS</h4>
+                <small className='text-light'>Experienced</small></div>
               </article>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>PostgreSQL</h4>
-                <small className='text-light'>Intermediate</small>
+                <AiFillCheckCircle className='experience__details-icon'/>
+                <div><h4>PostgreSQL</h4>
+                <small className='text-light'>Intermediate</small></div>
               </article>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>Python</h4>
-                <small className='text-light'>Intermediate</small>
+                <AiFillCheckCircle className='experience__details-icon'/>
+                <div><h4>Python</h4>
+                <small className='text-light'>Intermediate</small></div>
               </article>
               <article className='experience__details'>
-                <AiFillCheckCircle/>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Intermediate</small>
+                <AiFillCheckCircle className='experience__details-icon'/>
+                <div><h4>MongoDB</h4>
+                <small className='text-light'>Intermediate</small></div>
               </article>
             </div>
         </div>
