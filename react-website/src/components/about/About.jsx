@@ -21,10 +21,10 @@ const About = () => {
             </article>
           </div>
 
-          <p>I am a Software Engineer with a background in healthcare and production. <br /> I have a passion for writing problem solving codes. <br /> I am excited to work with a team of engineers who prioritize efficiency and growth while staying updated on the latest trends and technologies. 
-        </p>
+          <p>I am a Software Engineer with a background in healthcare, production and fitness. <br /> I have a passion for writing problem solving codes. <br /> I am excited to work with a team of engineers who prioritize efficiency and growth while staying updated on the latest trends and technologies. 
+          </p>
 
-        <a className='btn btn-primary' href="#contact">Get In Touch</a>
+          <a className='btn btn-primary' href="#contact">Get In Touch</a>
         </div>
       </div>
     </section>
