@@ -29,15 +29,7 @@ function Portfolio() {
           <a href="https://protected-hamlet-59115.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="Project Image" />
-          </div>
-          <h3>Realitive</h3>
-          <a href="https://github.com/sean-r-g/realestate-back-end" className='btn'>Github Backend</a>
-          <a href="https://github.com/sean-r-g/realestate-front-end" className='btn'>Github Frontend</a>
-          <a href="https://real-estate-front-end12.herokuapp.com/#" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
+        
       </div>
     </section>
   )
